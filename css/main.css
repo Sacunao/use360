@@ -45,11 +45,11 @@
 header .navbar{
 	background-color: transparent;
 	border: none;
-	padding: 1%;
+	padding: 0.3%;
 }
 .navbar #bs-example-navbar-collapse-1 .list{
 	color: #FFFFFF;
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 .navbar #bs-example-navbar-collapse-1 .list:hover{
 	background-color: rgba(61,122,209,0.8);
@@ -112,6 +112,9 @@ header .navbar{
 }
 
 /*--------EJEMPLOS----------*/
+.funcion{
+	position: relative;
+}
 .logo-ejemplos{
 	width: 90%;
 }
@@ -133,14 +136,40 @@ header .navbar{
 }
 .opacar{
 	background-color: rgba(93,101,107,0.7);
-	min-height: 400px;
+	min-height: inherit;
 }
 
 .no-margin{
 	padding-left: 0;
 	padding-right: 0;
 }
-
+.icon-center{
+	background-color: #50BDEA;
+	font-size: 1.5em;
+	color: #FFFFFF;
+	border-radius: 50%;
+	padding: 2%;
+	position:absolute;
+	margin: 2%;
+}
+.z-index1{
+	position: absolute;
+	left: 45%;
+	top: 5%;
+	z-index: 1;
+}
+.z-index2{
+	position: absolute;
+	left: 45%;
+	top: 30%;
+	z-index: 2;
+}
+.z-index3{
+	position: absolute;
+	left: 45%;
+	top: 55%;
+	z-index: 2;
+}
 /*--------USABILIDAD----------*/
 .logo-razones{
 	width: 90%;
@@ -160,10 +189,55 @@ header .navbar{
 	padding: 2% 0%;
 }
 .redescontact{
-	float: right;
+	text-align: right;
 }
 .redes{
-	font-size: 2em;
-	margin-right: 2%;
+	font-size: 2.5em;
+	margin: 2%;
+	display: inline-block;
+}
+.redes:hover{
+	color: #FFFFFF;
+	transition: all 0.8s ease;
+}
+/*--------LETRAS RESPON0IVE----------*/
+
+@media (max-width: 1024px){
+	body{
+	font-size: 16px;
+	}
+	.noneicon{
+		display: none;
+	}
+}
+@media (max-width: 982px){
+	body{
+	font-size: 14px;
+	}
+}
+@media (max-width: 768px){
+	body{
+	font-size: 14px;
+	}
 }
 
+@media (max-width: 640px){
+	body{
+	font-size: 12px;
+	}
+	.title {
+	font-size: 2.5em;
+	}
+	.none{
+		display: none;
+	}
+	footer{
+		text-align: center;
+	}
+	.redescontact{
+		text-align: center;
+	}
+	.middle{
+		text-align: center;
+	}
+}
