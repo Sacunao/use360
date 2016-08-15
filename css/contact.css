@@ -1,0 +1,28 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+body{
+	background: url(../image/large.jpg) no-repeat;
+	background-size: 100%;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.w-80{
+	width: 80%;
+}
+.text-red{
+	color: red;
+}
+/*-------FORMULARIO----*/
+.formulario{
+	background-color: #FFFFFF;
+	width: 80%;
+	border: 1px gray solid;
+	border-top: 5px #74A3DB solid;
+}
+.form-horizontal .w-80 .form-group label{
+	text-align: left;
+}

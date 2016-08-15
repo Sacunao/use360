@@ -95,7 +95,7 @@ header .navbar{
 	font-weight: 600;
 }
 .tipos-servicios{
-	padding: 20% 15%;
+	padding: 10% 15%;
 }
 
 /*--------SEPARADOR----------*/
@@ -109,7 +109,6 @@ header .navbar{
 .arrow {
 	position: relative;
 	top: -50px;
-	margin: 0% 47%;
 }
 
 /*--------EJEMPLOS----------*/
@@ -126,12 +125,17 @@ header .navbar{
 	margin-bottom: 0;
 	margin-top: 0;
 }
-.img-sec2{
-	width: 100%;
-	display: flex;
-	-webkit-filter: brightness(50%);
-	filter: brightness(20%)
+.imgfuncion{
+	background: url(../image/sec-2.jpg) no-repeat;
+	background-size: 100%;
+	background-size: cover;
+	min-height: 400px;
 }
+.opacar{
+	background-color: rgba(93,101,107,0.7);
+	min-height: 400px;
+}
+
 .no-margin{
 	padding-left: 0;
 	padding-right: 0;
@@ -162,6 +166,4 @@ header .navbar{
 	font-size: 2em;
 	margin-right: 2%;
 }
-.flecha{
-	padding-left: 45%;
-}
+
